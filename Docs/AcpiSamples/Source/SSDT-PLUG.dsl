@@ -38,5 +38,5 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "CpuPlug", 0x00003000)
             }
         }
     }
-
+}
  
