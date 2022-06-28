@@ -32,7 +32,7 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "PNLF", 0)
             OperationRegion (RMP3, PCI_Config, Zero, 0x14)
 
             // For backlight control
-            Device (PNLF)
+            Device (_SB.PCI0.GFX0.PNLF)
             {
                 Name (_HID, EisaId("APP0002"))
                 Name (_CID, "backlight")
